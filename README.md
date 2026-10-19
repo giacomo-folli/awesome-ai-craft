@@ -15,7 +15,7 @@ Inspired by [awesome-javascript](https://github.com/sorrycc/awesome-javascript).
       - [Office & Productivity Suite (Microsoft Alternatives)](#office--productivity-suite-microsoft-alternatives)
       - [Audio & CAD Systems](#audio--cad-systems)
       - [Core Engine & Framework](#core-engine--framework)
-    - [Parametric 3D Engineering (`tangency-labs`)](#parametric-3d-engineering-tangency-labs)
+    - [Parametric 3D Engineering & Simulation (`tangency-labs`)](#parametric-3d-engineering--simulation-tangency-labs)
   - [Design & Creative Clones](#design--creative-clones)
     - [Photoshop & Raster Editors](#photoshop--raster-editors)
     - [Figma & Collaborative UI](#figma--collaborative-ui)
@@ -91,10 +91,11 @@ Inspired by [awesome-javascript](https://github.com/sorrycc/awesome-javascript).
 
 ---
 
-### Parametric 3D Engineering (`tangency-labs`)
-*Independent clean-room engineering tools extending the Craft paradigm into mechanical CAD and physical modeling.*
+### Parametric 3D Engineering & Simulation (`tangency-labs`)
+*Independent clean-room engineering tools extending the Craft paradigm into mechanical CAD, finite element analysis (FEA), and multi-physics simulation.*
 
 * [solidcraft](https://github.com/tangency-labs/solidcraft) - Open-source, parametric 3D CAD application written in pure Rust by Tangency Labs as a clean-room alternative to **Dassault Systèmes SolidWorks** and **Autodesk Fusion 360**. Features a parametric history timeline (extrude, revolve, loft, sweep, fillet, shell, patterns), 2D constraint solver, multi-platform runtime (native desktop, WebGPU in-browser, and headless CLI), STEP/IGES/STL/3MF export, and a built-in Model Context Protocol (MCP) server enabling AI agents to programmatically inspect, measure, and generate 3D mechanical parts.
+* [fieldcraft](https://github.com/tangency-labs/fieldcraft) - Open-source multi-physics modeler and simulation workbench written from scratch in pure Rust by Tangency Labs as a clean-room alternative to **Abaqus/CAE**, **ANSYS**, and **COMSOL Multiphysics**. Features automated all-hex and tetrahedral meshing, nonlinear implicit and explicit FEA (structures), heat transfer, lattice Boltzmann CFD (fluids), export decks for Abaqus/Nastran/LS-DYNA, and native Model Context Protocol (MCP) and CLI interfaces for AI agent-driven simulation.
 
 ----
 
@@ -340,7 +341,7 @@ How AI agents enable clean-room software recreation:
 ## Community & Discussions
 
 * [The Storytold ArtCraft Announcement](https://github.com/storytold) - Home of the pure-Rust ArtCraft ecosystem and creative suite.
-* [Tangency Labs SolidCraft](https://github.com/tangency-labs/solidcraft) - Parametric 3D CAD modeling suite in pure Rust with MCP integration.
+* [Tangency Labs (SolidCraft & Fieldcraft)](https://github.com/tangency-labs) - Parametric 3D CAD modeling and multi-physics simulation in pure Rust with MCP integration.
 * [Hacker News & Reddit Discussions on Clean-Room AI](https://news.ycombinator.com) - Debate and analysis on whether LLM-driven clean-room implementations qualify under traditional IP laws.
 * [Reddit r/ReverseEngineering](https://www.reddit.com/r/ReverseEngineering/) - Technical discussions regarding binary analysis, Ghidra, IDA Pro, and machine-assisted decompilation.
 
