@@ -1,6 +1,6 @@
 # Awesome AI Craft [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-> A curated list of awesome software products, applications, and desktop suites created through AI-driven reverse engineering, clean-room reimplementation, and agentic cloning—inspired by the viral **ArtCraft** suite by `storytold`, **REA** (Reverse Engineer Anything), and the new wave of open-source software clones.
+> A curated list of awesome software products, applications, and desktop suites created through AI-driven reverse engineering, clean-room reimplementation, and agentic cloning—inspired by the viral **ArtCraft** suite by `storytold`, **SolidCraft** by `tangency-labs`, **REA** (Reverse Engineer Anything), and the new wave of open-source software clones.
 
 Inspired by [awesome-javascript](https://github.com/sorrycc/awesome-javascript).
 
@@ -9,11 +9,13 @@ Inspired by [awesome-javascript](https://github.com/sorrycc/awesome-javascript).
 ## Contents
 
 - [Awesome AI Craft](#awesome-ai-craft)
-  - [The ArtCraft Suite (`storytold`)](#the-artcraft-suite-storytold)
-    - [Creative & Media Suite (Adobe Alternatives)](#creative--media-suite-adobe-alternatives)
-    - [Office & Productivity Suite (Microsoft Alternatives)](#office--productivity-suite-microsoft-alternatives)
-    - [Audio & CAD Systems](#audio--cad-systems)
-    - [Core Engine & Framework](#core-engine--framework)
+  - [The Craft Ecosystem](#the-craft-ecosystem)
+    - [The ArtCraft Suite (`storytold`)](#the-artcraft-suite-storytold)
+      - [Creative & Media Suite (Adobe Alternatives)](#creative--media-suite-adobe-alternatives)
+      - [Office & Productivity Suite (Microsoft Alternatives)](#office--productivity-suite-microsoft-alternatives)
+      - [Audio & CAD Systems](#audio--cad-systems)
+      - [Core Engine & Framework](#core-engine--framework)
+    - [Parametric 3D Engineering (`tangency-labs`)](#parametric-3d-engineering-tangency-labs)
   - [Design & Creative Clones](#design--creative-clones)
     - [Photoshop & Raster Editors](#photoshop--raster-editors)
     - [Figma & Collaborative UI](#figma--collaborative-ui)
@@ -45,7 +47,7 @@ Inspired by [awesome-javascript](https://github.com/sorrycc/awesome-javascript).
   - [Reverse-Engineering & AI Decompilation Tools](#reverse-engineering--ai-decompilation-tools)
     - [Agentic Reverse-Engineering Bridges](#agentic-reverse-engineering-bridges)
     - [AI Decompiler & Disassembler Plugins](#ai-decompiler--disassembler-plugins)
-    - [Binary Analysis & APK Reconstructors](#binary-analysis--apk-reconstructors)
+    - [Binary Analysis & Protocol Reconstructors](#binary-analysis--protocol-reconstructors)
 - [Clean-Room Methodology](#clean-room-methodology)
 - [Community & Discussions](#community--discussions)
 - [Other Awesome Lists](#other-awesome-lists)
@@ -53,11 +55,12 @@ Inspired by [awesome-javascript](https://github.com/sorrycc/awesome-javascript).
 
 ----
 
-## The ArtCraft Suite (`storytold`)
+## The Craft Ecosystem
 
+### The ArtCraft Suite (`storytold`)
 *The viral family of desktop applications written entirely from scratch in pure Rust by Brandon Thomas and AI coding agents (Claude Opus), delivering zero-dependency, clean-room reimplementations of commercial creative and office standards with native MCP and CLI control.*
 
-### Creative & Media Suite (Adobe Alternatives)
+#### Creative & Media Suite (Adobe Alternatives)
 *Pure-Rust replacements for proprietary Adobe Creative Cloud desktop applications.*
 
 * [photocraft](https://github.com/storytold/photocraft) - Clean-room reimplementation of **Adobe Photoshop** written from scratch in pure Rust, featuring multi-layer editing, PSD file parsing, non-destructive adjustment layers, and native AI agent scripting.
@@ -68,23 +71,30 @@ Inspired by [awesome-javascript](https://github.com/sorrycc/awesome-javascript).
 * [designcraft](https://github.com/storytold/designcraft) - Page design and typography desktop publisher built in pure Rust as a clean-room alternative to **Adobe InDesign**.
 * [pdfcraft](https://github.com/storytold/pdfcraft) - High-performance PDF reader, annotator, form filler, and page organizer replacing **Adobe Acrobat Pro**.
 
-### Office & Productivity Suite (Microsoft Alternatives)
+#### Office & Productivity Suite (Microsoft Alternatives)
 *Pure-Rust desktop replacements for Microsoft Office desktop software.*
 
 * [wordcraft](https://github.com/storytold/wordcraft) - Clean-room word processor written in pure Rust supporting DOCX and ODT formats, designed as a fast native alternative to **Microsoft Word**.
 * [gridcraft](https://github.com/storytold/gridcraft) - Spreadsheet application written from scratch in Rust with formula calculation engines and XLSX import/export, replacing **Microsoft Excel**.
 * [deckcraft](https://github.com/storytold/deckcraft) - Native presentation software written in Rust for crafting, styling, and presenting slide decks, replacing **Microsoft PowerPoint**.
 
-### Audio & CAD Systems
+#### Audio & CAD Systems
 *Specialized engineering and audio production tools.*
 
 * [soundcraft](https://github.com/storytold/soundcraft) - Digital audio workstation (DAW) and clean-room reimplementation of **Avid Pro Tools** and **Adobe Audition** in Rust for multi-track audio mixing and mastering.
 * [cadcraft](https://github.com/storytold/cadcraft) - Computer-aided design and drafting application built in Rust as an open alternative to **Autodesk AutoCAD**.
 
-### Core Engine & Framework
+#### Core Engine & Framework
 *Underlying engine architectures and agent bridges.*
 
 * [artcraft](https://github.com/storytold/artcraft) - The core intentional crafting engine and unified UI framework that powers the entire Craft suite, with native Model Context Protocol (MCP) servers and JSON-RPC automation channels.
+
+---
+
+### Parametric 3D Engineering (`tangency-labs`)
+*Independent clean-room engineering tools extending the Craft paradigm into mechanical CAD and physical modeling.*
+
+* [solidcraft](https://github.com/tangency-labs/solidcraft) - Open-source, parametric 3D CAD application written in pure Rust by Tangency Labs as a clean-room alternative to **Dassault Systèmes SolidWorks** and **Autodesk Fusion 360**. Features a parametric history timeline (extrude, revolve, loft, sweep, fillet, shell, patterns), 2D constraint solver, multi-platform runtime (native desktop, WebGPU in-browser, and headless CLI), STEP/IGES/STL/3MF export, and a built-in Model Context Protocol (MCP) server enabling AI agents to programmatically inspect, measure, and generate 3D mechanical parts.
 
 ----
 
@@ -281,7 +291,7 @@ Inspired by [awesome-javascript](https://github.com/sorrycc/awesome-javascript).
 * [r2ai](https://github.com/radareorg/r2ai) - AI assistant plugin for the **radare2** and **cutter** reverse-engineering frameworks for decompilation assistance.
 * [JADX](https://github.com/skylot/jadx) - Command line and GUI tool to produce Java source code from Android APK and DEX files, frequently paired with AI scripts for clean-room mobile recreation.
 
-### Binary Analysis & APK Reconstructors
+### Binary Analysis & Protocol Reconstructors
 *Techniques and tools for extracting schemas, protocols, and data specs.*
 
 * [mitmproxy](https://github.com/mitmproxy/mitmproxy) - Interactive TLS-capable intercepting HTTP proxy for reverse-engineering proprietary client-server protocols and APIs.
@@ -296,7 +306,7 @@ How AI agents enable clean-room software recreation:
 ```
 ┌───────────────────────────┐         ┌──────────────────────────┐
 │  Target Proprietary App   │         │    Public Specifications  │
-│  (UI / UX / Formats)      │         │    (PSD, OOXML, SVG, API)│
+│  (UI / UX / Formats)      │         │    (PSD, STEP, OOXML, SVG)│
 └─────────────┬─────────────┘         └─────────────┬────────────┘
               │                                     │
               ▼                                     ▼
@@ -317,12 +327,12 @@ How AI agents enable clean-room software recreation:
                               ▼
       ┌──────────────────────────────────────────────────┐
       │          New Open-Source Product                 │
-      │   (PhotoCraft, VectorCraft, OpenPencil, Void)    │
+      │ (PhotoCraft, SolidCraft, VectorCraft, OpenPencil)│
       └──────────────────────────────────────────────────┘
 ```
 
 1. **Specification Extraction**: The analyst uses tools like `rea`, `mitmproxy`, or public RFCs to document interface behaviors, file formats, and features.
-2. **Clean-Room Barrier**: The AI coding agent is tasked with writing fresh, unencumbered code (e.g., in Rust or TypeScript) strictly conforming to the behavioral specification.
+2. **Clean-Room Barrier**: The AI coding agent is tasked with writing fresh, unencumbered code (e.g., in pure Rust or TypeScript) strictly conforming to the behavioral specification.
 3. **Agent-Native Architecture**: Modern clones build native Model Context Protocol (MCP) servers and JSON control layers directly into the app so AI agents can control the software programmatically.
 
 ----
@@ -330,6 +340,7 @@ How AI agents enable clean-room software recreation:
 ## Community & Discussions
 
 * [The Storytold ArtCraft Announcement](https://github.com/storytold) - Home of the pure-Rust ArtCraft ecosystem and creative suite.
+* [Tangency Labs SolidCraft](https://github.com/tangency-labs/solidcraft) - Parametric 3D CAD modeling suite in pure Rust with MCP integration.
 * [Hacker News & Reddit Discussions on Clean-Room AI](https://news.ycombinator.com) - Debate and analysis on whether LLM-driven clean-room implementations qualify under traditional IP laws.
 * [Reddit r/ReverseEngineering](https://www.reddit.com/r/ReverseEngineering/) - Technical discussions regarding binary analysis, Ghidra, IDA Pro, and machine-assisted decompilation.
 
