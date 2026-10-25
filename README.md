@@ -6,12 +6,21 @@
 
 ## Contents
 
-- [The Craft Ecosystem](#the-craft-ecosystem)
-- [Parametric 3D Engineering & Simulation](#parametric-3d-engineering--simulation)
-- [Clean-Room Methodology](#clean-room-methodology)
-- [Community & Discussions](#community--discussions)
-- [Other Awesome Lists](#other-awesome-lists)
-
+- [Awesome AI Craft ](#awesome-ai-craft-)
+  - [Contents](#contents)
+  - [The Craft Ecosystem](#the-craft-ecosystem)
+    - [The ArtCraft Suite (`storytold`)](#the-artcraft-suite-storytold)
+      - [Creative \& Media Suite (Adobe Alternatives)](#creative--media-suite-adobe-alternatives)
+      - [Office \& Productivity Suite (Microsoft Alternatives)](#office--productivity-suite-microsoft-alternatives)
+      - [Audio \& CAD Systems](#audio--cad-systems)
+      - [Core Engine \& Framework](#core-engine--framework)
+  - [Parametric 3D Engineering \& Simulation](#parametric-3d-engineering--simulation)
+  - [Game Reimplementations](#game-reimplementations)
+  - [Clean-Room Methodology](#clean-room-methodology)
+  - [Community \& Discussions](#community--discussions)
+  - [Other Awesome Lists](#other-awesome-lists)
+  - [Contributing](#contributing)
+  
 ---
 
 ## The Craft Ecosystem
@@ -61,6 +70,15 @@
 
 - [SolidCraft](https://github.com/tangency-labs/solidcraft) - Open-source, parametric 3D CAD application written in pure Rust by Tangency Labs as a clean-room alternative to Dassault Systèmes SolidWorks and Autodesk Fusion 360. Features a parametric history timeline, 2D constraint solver, multi-platform runtime, STEP/IGES/STL/3MF export, and a built-in Model Context Protocol (MCP) server.
 - [FieldCraft](https://github.com/tangency-labs/fieldcraft) - Open-source multi-physics modeler and simulation workbench written from scratch in pure Rust by Tangency Labs as a clean-room alternative to Abaqus/CAE, ANSYS, and COMSOL Multiphysics. Features automated meshing, nonlinear implicit and explicit FEA, heat transfer, lattice Boltzmann CFD, and native Model Context Protocol (MCP) and CLI interfaces.
+
+---
+
+## Game Reimplementations
+
+*Clean-room recreations of commercial games, rebuilt natively and optionally driven by AI agents.*
+
+- [Skate 3 Rust Engine](https://github.com/SK8-ENGINE/skate-3-rust-engine) - Rust and Bevy recreation of Skate 3 built on years of community reverse-engineering research, with skating, tricks, grinds, offboard movement, and `.skate` map support. Ships no original game assets.
+- [Horizon](https://github.com/ludovic111/horizon) - Minecraft: Java Edition rewritten from scratch in Rust, checked against vanilla by 281 differential harnesses, reading your own copy's worlds and assets, with native agent control through a CLI and MCP server.
 
 ---
 
