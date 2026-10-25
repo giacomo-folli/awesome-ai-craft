@@ -1,26 +1,24 @@
-# Awesome AI Craft [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome AI Craft [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) <!-- omit in toc -->
 
 > Software products, applications, and desktop suites created through AI-driven clean-room reimplementation, reverse engineering, and agentic workflows.
 
 
-## Contents
+## Contents <!-- omit in toc -->
 
-- [Awesome AI Craft ](#awesome-ai-craft-)
-  - [Contents](#contents)
-      - [Creative \& Media Suite (Adobe Alternatives)](#creative--media-suite-adobe-alternatives)
-      - [Office \& Productivity Suite (Microsoft Alternatives)](#office--productivity-suite-microsoft-alternatives)
-      - [Audio \& CAD Systems](#audio--cad-systems)
-      - [Core Engine \& Framework](#core-engine--framework)
-  - [Parametric 3D Engineering \& Simulation](#parametric-3d-engineering--simulation)
-  - [Game Reimplementations](#game-reimplementations)
-  - [Clean-Room Methodology](#clean-room-methodology)
-  - [Community \& Discussions](#community--discussions)
-  - [Other Awesome Lists](#other-awesome-lists)
-  - [Contributing](#contributing)
+- [Creative \& Media Suite (Adobe Alternatives)](#creative--media-suite-adobe-alternatives)
+- [Office \& Productivity Suite (Microsoft Alternatives)](#office--productivity-suite-microsoft-alternatives)
+- [Audio \& CAD Systems](#audio--cad-systems)
+- [Core Engine \& Framework](#core-engine--framework)
+- [Parametric 3D Engineering \& Simulation](#parametric-3d-engineering--simulation)
+- [Game Reimplementations](#game-reimplementations)
+- [Clean-Room Methodology](#clean-room-methodology)
+- [Community \& Discussions](#community--discussions)
+- [Other Awesome Lists](#other-awesome-lists)
+- [Contributing](#contributing)
   
 ---
 
-#### Creative & Media Suite (Adobe Alternatives)
+## Creative & Media Suite (Adobe Alternatives)
 
 *Pure-Rust replacements for proprietary Adobe Creative Cloud desktop applications.*
 
@@ -32,7 +30,7 @@
 - [DesignCraft](https://github.com/storytold/designcraft) - Page design and typography desktop publisher built in pure Rust as a clean-room alternative to Adobe InDesign.
 - [PdfCraft](https://github.com/storytold/pdfcraft) - High-performance PDF reader, annotator, form filler, and page organizer replacing Adobe Acrobat Pro.
 
-#### Office & Productivity Suite (Microsoft Alternatives)
+## Office & Productivity Suite (Microsoft Alternatives)
 
 *Pure-Rust desktop replacements for Microsoft Office desktop software.*
 
@@ -40,14 +38,14 @@
 - [GridCraft](https://github.com/storytold/gridcraft) - Spreadsheet application written from scratch in Rust with formula calculation engines and XLSX import/export, replacing Microsoft Excel.
 - [DeckCraft](https://github.com/storytold/deckcraft) - Native presentation software written in Rust for crafting, styling, and presenting slide decks, replacing Microsoft PowerPoint.
 
-#### Audio & CAD Systems
+## Audio & CAD Systems
 
 *Specialized engineering and audio production tools.*
 
 - [SoundCraft](https://github.com/storytold/soundcraft) - Digital audio workstation (DAW) and clean-room reimplementation of Avid Pro Tools and Adobe Audition in Rust for multi-track audio mixing and mastering.
 - [CadCraft](https://github.com/storytold/cadcraft) - Computer-aided design and drafting application built in Rust as an open alternative to Autodesk AutoCAD.
 
-#### Core Engine & Framework
+## Core Engine & Framework
 
 *Underlying engine architectures and agent bridges.*
 
