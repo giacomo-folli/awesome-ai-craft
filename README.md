@@ -2,14 +2,11 @@
 
 > Software products, applications, and desktop suites created through AI-driven clean-room reimplementation, reverse engineering, and agentic workflows.
 
----
 
 ## Contents
 
 - [Awesome AI Craft ](#awesome-ai-craft-)
   - [Contents](#contents)
-  - [The Craft Ecosystem](#the-craft-ecosystem)
-    - [The ArtCraft Suite (`storytold`)](#the-artcraft-suite-storytold)
       - [Creative \& Media Suite (Adobe Alternatives)](#creative--media-suite-adobe-alternatives)
       - [Office \& Productivity Suite (Microsoft Alternatives)](#office--productivity-suite-microsoft-alternatives)
       - [Audio \& CAD Systems](#audio--cad-systems)
@@ -22,12 +19,6 @@
   - [Contributing](#contributing)
   
 ---
-
-## The Craft Ecosystem
-
-### The ArtCraft Suite (`storytold`)
-
-*Desktop applications written from scratch in pure Rust by Brandon Thomas and AI coding agents, delivering zero-dependency, clean-room reimplementations of commercial creative and office standards with native MCP and CLI control.*
 
 #### Creative & Media Suite (Adobe Alternatives)
 
@@ -62,7 +53,6 @@
 
 - [ArtCraft](https://github.com/storytold/artcraft) - The core intentional crafting engine and unified UI framework that powers the entire Craft suite, with native Model Context Protocol (MCP) servers and JSON-RPC automation channels.
 
----
 
 ## Parametric 3D Engineering & Simulation
 
@@ -70,8 +60,6 @@
 
 - [SolidCraft](https://github.com/tangency-labs/solidcraft) - Open-source, parametric 3D CAD application written in pure Rust by Tangency Labs as a clean-room alternative to Dassault Systèmes SolidWorks and Autodesk Fusion 360. Features a parametric history timeline, 2D constraint solver, multi-platform runtime, STEP/IGES/STL/3MF export, and a built-in Model Context Protocol (MCP) server.
 - [FieldCraft](https://github.com/tangency-labs/fieldcraft) - Open-source multi-physics modeler and simulation workbench written from scratch in pure Rust by Tangency Labs as a clean-room alternative to Abaqus/CAE, ANSYS, and COMSOL Multiphysics. Features automated meshing, nonlinear implicit and explicit FEA, heat transfer, lattice Boltzmann CFD, and native Model Context Protocol (MCP) and CLI interfaces.
-
----
 
 ## Game Reimplementations
 
