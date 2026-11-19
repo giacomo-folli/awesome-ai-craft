@@ -66,6 +66,7 @@
 - [FastRender](https://github.com/wilsonzlin/fastrender) - Experimental browser engine written by thousands of parallel agents in Cursor's research on long-running autonomous coding.
 - [JustHTML](https://github.com/EmilStenstrom/justhtml) - Pure-Python HTML5 parser built with coding agents that passes the full html5lib test suite.
 - [justjshtml](https://github.com/simonw/justjshtml) - JavaScript port of JustHTML, produced by a coding agent and checked against the same test suite.
+- [open-sbsar](https://github.com/wtfmydarling/open-sbsar) - AI-assisted clean-room reimplementation of Adobe Substance 3D Engine in Rust, featuring CPU and Vulkan GPU rendering, an SBSAR writer, and open bit-level format specs obtained through black-box reverse engineering, tested on 1,388 real Substance materials.
 
 ## Parametric 3D Engineering & Simulation
 
